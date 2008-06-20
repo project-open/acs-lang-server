@@ -5,12 +5,12 @@ ad_page_contract {
     locale
     package_key 
     message_key
-    package_version 
     sender_email
-    sender_first_names
-    sender_last_name
-    message:allhtml
-    comment:allhtml
+    { package_version "" }
+    { sender_first_names "System" }
+    { sender_last_name "Administrator" }
+    { message:allhtml "" }
+    { comment:allhtml "" }
 }
 
 # No security. 
